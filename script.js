@@ -22,10 +22,10 @@ startBtn.addEventListener('click', () => {
     reader.onload = function(e) {
         const buffer = e.target.result;
 
-        // Initializing the v86 emulator instance
+        // Initializing the v86 emulator instance with 2GB of RAM
         const emulator = new V86Starter({
             wasm_path: "https://copy.sh",
-            memory_size: 512 * 1024 * 1024, // 512MB RAM (Adjustable)
+            memory_size: 2 * 1024 * 1024 * 1024, // 2GB RAM allocated in bytes
             vga_as_canvas: true,
             canvas: document.getElementById("vga-screen"),
             cdrom: {
