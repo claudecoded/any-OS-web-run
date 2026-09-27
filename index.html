@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web OS Emulator</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Loading the v86 emulator library -->
+    <script src="https://copy.sh"></script>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Universal Web OS Emulator</h1>
+            <p>Upload any bootable ISO/IMG file to run the OS directly in your browser.</p>
+        </header>
+
+        <main>
+            <div class="controls">
+                <label for="iso-file" class="custom-file-upload">Choose ISO/IMG File</label>
+                <input type="file" id="iso-file" accept=".iso,.img,.bin">
+                <button id="start-btn" disabled>Boot OS</button>
+            </div>
+
+            <!-- The OS screen will be rendered inside this pre tag -->
+            <div id="screen-container">
+                <canvas id="vga-screen"></canvas>
+                <div id="terminal-screen"></div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
