@@ -1,5 +1,7 @@
 # Universal Web OS Emulator
 
+<img width="1856" height="576" alt="image" src="https://github.com/user-attachments/assets/89e932de-f970-414c-9a92-93d0addca0f7" />
+
 A lightweight, client-side x86 PC emulator running entirely in the browser using WebAssembly (via v86). This project allows users to upload any bootable operating system image (`.iso`, `.img`, `.bin`) and run it instantly inside a web tab without any backend server.
 
 ## 🚀 Live Demo
