@@ -20,3 +20,6 @@ A lightweight, client-side x86 PC emulator running entirely in the browser using
 ## 📝 Technologies Used
 - HTML5 / CSS3 / JavaScript (ES6)
 - [v86 Emulator Library](https://github.com) (WebAssembly / Rust / JS)
+
+Ok, so now you'v done everything, you can run DuskOS on your browser LOL
+<img width="712" height="533" alt="image" src="https://github.com/user-attachments/assets/6798254b-541f-4da1-99e3-e19b14aa0591" />
